@@ -200,9 +200,9 @@ export default function Page() {
           <>
             <div className={styles.result}>
               <div className={styles.badge}>Cobertura confirmada</div>
-              <h2 className={styles.resultTitle}>
-                Região de <span className={styles.location}>{locationLabel}</span> está disponível
-              </h2>
+<h3 className={styles.location}>
+  Dados da região {phone} — Starlink App disponível
+</h3>
               <p className={styles.resultText}>
                 Conexão via satélite ativa nesta área. A constelação LEO oferece
                 <b> alta velocidade</b> e <b>baixa latência</b>, mesmo onde as operadoras
